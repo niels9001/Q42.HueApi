@@ -53,9 +53,24 @@ namespace Q42.HueApi.ColorConverters.OriginalWithModel
             };
 
 			List<string> gamutC = new List<string>() {
+				"LCT010" /*Hue A19" */,
+				"LCT011" /*Hue BR30" */,
+				"LCT014" /*Hue A19" */,
 				"LLC020" /* Hue Go */,
 				"LST002" /* Hue LightStrips Plus */
             };
+
+		// List<string> gamut2200K6500K = new List<string>() {
+				//"LLM010" /*Color Temperature Module" */,
+				//"LLM011" /*Color Temperature Module" */,
+				//"LLM012" /*Color Temperature Module" */,
+				//"LTW001" /* Hue A19 White Ambiance*/,
+				//"LTW004" /* Hue A19 White Ambiance */
+				//"LTW013" /* Hue GU-10 White Ambiance*/,
+				//"LTW014" /* Hue GU-10 White Ambiance */
+				//"Classic A60 RGBW" /* Osram Lightify */
+					
+          //  }; */
 
 			if (gamutA.Contains(modelId))
 			{
